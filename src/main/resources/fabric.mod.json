@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "greenfinger",
+  "version": "${version}",
+  "name": "Greenfinger",
+  "description": "Greenfinger is a mod that adds horticulture to Minecraft!",
+  "authors": [
+    "FlareLine"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FlareLine/greenfinger"
+  },
+  "license": "ISC",
+  "icon": "assets/greenfinger/icon_x128.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.flareline.greenfinger.Greenfinger"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.8.5+kotlin.1.7.20",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  }
+}
